@@ -37,7 +37,7 @@ def data_exp():
         with col2:
             st.subheader("ℹ️ Data Information")
             img = Image.open("info.jpeg")
-            st.image(img, caption="Detailed Data Info", use_column_width=True)
+            st.image(img, caption="Detailed Data Info", use_container_width=True)
 
         with col1:
             with st.expander("🔸 Distribution by Sex"):
@@ -63,7 +63,7 @@ def data_exp():
         Gain deeper insights into the dataset through a series of interactive charts and plots.
         """)
         img = Image.open("chart.png")
-        st.image(img, caption="Overview of Visual Data Analysis", use_column_width=True)
+        st.image(img, caption="Overview of Visual Data Analysis", use_container_width=True)
         with st.expander("🔹 Histogram and Bar Plots"):
             choose = st.selectbox("Choose Plot", ["Distribution of Target", "Target vs Sex", "Target vs Fasting Blood Sugar", "Target vs Exercise Induced Angina"])
             if choose == "Distribution of Target":
@@ -154,4 +154,4 @@ def data_exp():
 
             else:
                 img = Image.open("pairplot.jpeg")
-                st.image(img, caption="Pair Plot Analysis", use_column_width=True)
+                st.image(img, caption="Pair Plot Analysis", use_container_width=True)

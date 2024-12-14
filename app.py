@@ -14,7 +14,7 @@ def main():
     if choice == "Home":
         st.markdown("<h2 style='text-align: center; font-size: 40px;'>💖 Heart Health Risk Prediction App</h2>", unsafe_allow_html=True)
         img = Image.open("cardio.jpg")
-        st.image(img, caption="Monitor Your Heart Health", use_column_width=True)
+        st.image(img, caption="Monitor Your Heart Health", use_container_width=True)
 
         st.markdown("""
         Welcome to the **Heart Health Risk Prediction App**! This tool allows you to explore heart disease data and assess risk levels based on patient information using machine learning.

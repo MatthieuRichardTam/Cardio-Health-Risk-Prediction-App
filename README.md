@@ -75,11 +75,11 @@ pip install -r requirements.txt
 
 ## Screenshots
 - **Home Page**: Welcoming interface with an overview of the app.
-  ![Home Page Screenshot](screenshots/home.png)
+  ![Home Page Screenshot](screenshots/heart_home.png)
 - **Data Exploration**: Interactive visualizations of the dataset.
-  ![Data Exploration Screenshot](screenshots/data_exploration.png)
+  ![Data Exploration Screenshot](screenshots/heart_visualization.png)
 - **Risk Prediction**: User input form and prediction results.
-  ![Risk Prediction Screenshot](screenshots/risk_prediction.png)
+  ![Risk Prediction Screenshot](screenshots/heart_prediction_info.png)
 
 ## Authors
 - Matthieu Richard

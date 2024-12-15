@@ -80,6 +80,7 @@ pip install -r requirements.txt
   ![Data Exploration Screenshot](screenshots/heart_visualization.png)
 - **Risk Prediction**: User input form and prediction results.
   ![Risk Prediction Screenshot](screenshots/heart_prediction_info.png)
+  ![Risk Prediction Screenshot](screenshots/heart_prediction_result.png)
 
 ## Authors
 - Matthieu Richard

@@ -82,8 +82,4 @@ pip install -r requirements.txt
   ![Risk Prediction Screenshot](screenshots/risk_prediction.png)
 
 ## Authors
-- Your Name
-- Team Members (if applicable)
-
-## License
-This project is open source and available under the MIT License.
+- Matthieu Richard
